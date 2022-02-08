@@ -25,8 +25,8 @@ struct ContentView: View {
             DropRainView()
                 .frame(width: 100, height: 100)
                 .opacity(showAward ? 0 : 1)
-                .offset(y: showAward ? 190 : -320)
-                .animation(.easeOut(duration: 1.25), value: showAward)
+                .offset(y: showAward ? 200 : -350)
+                .animation(.easeOut(duration: 1), value: showAward)
         }
         .font(.headline)
         .padding()
